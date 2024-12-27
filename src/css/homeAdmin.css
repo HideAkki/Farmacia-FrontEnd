@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+}
+
+.logout {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #29FDF2;
+  border: none;
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out;
+  padding: 70px 70px;
+  max-width: 350px; /* Aumenta el ancho máximo */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 60px;
+  color: #000;
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
